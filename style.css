@@ -1,0 +1,78 @@
+
+header{                                      
+    background-image: url('study.jpg');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+footer{                                      
+    background-image: url('wood.jpg');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    color: yellow;
+}
+
+.options{
+    color: black;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: blue;
+}
+
+.footer{
+    margin-left: 1000px;
+    color:red;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+  text-decoration: none;
+  color: yellow;
+  padding: 5px 30px;
+  border: 1px solid black;
+}
+
+
+ul li a:hover{
+    color: red;
+    background-color: white;
+}
+
+ul li.active a{
+    color:white;
+    background-color: black;
+}
+
+.logo img{
+    float: left;
+    width:150px;
+    height:none;
+}
+
+#para {
+    text-align: center;
+    color: red;
+}
+
+.table{
+    color: yellow;
+    border: 1px solid black;
+}

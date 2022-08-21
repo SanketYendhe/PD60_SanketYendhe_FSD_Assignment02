@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Student registration form</title>
+</head>
+<body>
+  <nav>
+  <div class="main">
+    <div class="logo">
+     <img src="logo.png">
+    </div>
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Activities</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  </nav>
+
+<div class="container">
+  <br>
+  <br>
+  <br>
+  <p style="color:blue; font-size:20px; font-style:italic; text-align:center ">  <!--Inline CSS-->
+     <b>Welcome to ABC School! We are planning to host the annual school festival.<br>
+     We will be glad to have you participate!<br>
+     Please register for the events!</b>
+  </p>
+  <!--Internal CSS-->
+  <style>    
+  #para {
+    text-align: left;
+    color: orange;
+    font-size: 25px;
+  }
+  </style>
+  <p id="para">  
+    <b> Hurry!</b>
+  </p>
+  <h2 style="color: yellowgreen"><b>Register now!</b></h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <br>
+    <div class="form-group">
+      <label>Activity: </label>
+      <div class="options">
+      <select name="activity">
+       <option value="dance">Dance</option>
+       <option value="drawing">Drawing</option>
+       <option value="drama">Drama</option>
+      </select>
+       </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label>DOB: </label>
+      <div class="options">
+        <input type="date" name="birthday">
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="gender">Gender: </label>
+      <input type="radio" id="male" name="name" value="Male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="name" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="name" value="Other">
+      <label for="other">Other</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+      <button type="submit" style='margin-right:16px' class="btn btn-default">Submit</button> 
+      <button type="reset" style='margin-right:16px' class="btn btn-default">Reset</button>
+  </form>
+    <div class="footer">
+     <h4><i><u><b><a href="https://www.edsys.in/14-fun-classroom-activities/" target="_blank" rel="noopener noreferrer">Learn more</a></b></u></i></h4>
+    </div>
+  </header>
+  <footer>
+    <br>
+    <br>
+    <div class="table">
+    <table style="width:100%">
+      <tr>
+        <th>Event</th>
+        <th>Time</th>
+        <th>Participants</th>
+      </tr>
+      <tr>
+        <td>Dance</td>
+        <td>12pm</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <td>Drama</td>
+        <td>6pm</td>
+        <td>1800</td>
+      </tr>
+    </table>
+   </div>
+  </footer>
+</div>
+</body> 
+</html>
